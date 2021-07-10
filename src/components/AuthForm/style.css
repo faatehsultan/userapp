@@ -1,0 +1,14 @@
+.authForm {
+  max-width: 450px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.322);
+  min-height: 510px;
+  background-color: rgba(255, 255, 255, 0.356);
+  backdrop-filter: blur(10px);
+}
+
+.authForm input, .authForm select {
+  box-shadow: none !important;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.719);
+}

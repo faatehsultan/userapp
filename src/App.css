@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+/* global css here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.2s all;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  min-height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-image: url("./assets/images/bg.webp") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-primary {
+  width: fit-content !important;
+  border-radius: 12px !important;
+  background: linear-gradient(
+    45deg,
+    rgba(107, 20, 81, 0.534),
+    rgba(111, 24, 182, 0.589)
+  ) !important;
+  border: none !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-primary:focus {
+  box-shadow: none !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a,
+a:hover,
+a:focus,
+a:visited {
+  color: inherit !important;
+  text-decoration: none !important;
 }
